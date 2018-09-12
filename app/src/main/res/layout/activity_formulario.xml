@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context="com.morpin.appcadastrozoo.FormularioActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtnomeanimal"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintnomeanimal"
+        android:id="@+id/etNomeAnimal"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#888"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtidadeanimal"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintidadeanimal"
+        android:id="@+id/etIdadeAnimal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#888"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtespecieanimal"
+        android:textSize="20dp" />
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spEspecieAnimal">
+
+    </Spinner>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#888"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp">
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtsalvaranimal"
+        android:id="@+id/btnSalvarAnimal"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

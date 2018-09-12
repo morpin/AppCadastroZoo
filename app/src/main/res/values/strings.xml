@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AppCadastroZoo</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="txtcadastrozoo">Cadastro Zoo</string>
+    <string name="txttextoinicial">Bem vindo ao cadastro de animais do Zoo.</string>
+    <string name="txtnomeanimal">Nome do animal:</string>
+    <string name="hintnomeanimal">Insira aqui o nome do animal</string>
+    <string name="txtapertarbotao">Aperte o botão abaixo</string>
+    <string name="txtidadeanimal">Idade do animal</string>
+    <string name="hintidadeanimal">Informe aqui a idade do animal</string>
+    <string name="txtespecieanimal">Espécie do animal</string>
+    <string name="txtsalvaranimal">Salvar animal</string>
+    <string name="txtselecioneespecie">Selecione uma espécie</string>
+    <string name="txtnovaespecie">Nova especie</string>
+    <string name="hintnovaespecie">Informe nova especie</string>
+    <string name="txtcancelar">Cancelar</string>
+    <string name="txtsalvar">Salvar</string>
+
+    <string name="txtCamposObrigatorios">Preencha todos os campos</string>
+    <string name="txtAtencao">Atenção!</string>
+</resources>
